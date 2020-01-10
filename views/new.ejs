@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+<%- include("partials/navbar") %>
+
+<div class="container text-center">
+        <h1 class="my-3">New Campground</h1>
+        <div class="row justify-content-center m-auto">
+            <div class="col-4">
+                <form action="/campgrounds" method="POST">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="name" placeholder="camp name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="url" placeholder="image url">                    
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-lg btn-primary" type="submit">                    
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a href="/campgrounds">Back</a>
+</div>
+
+<%- include("partials/footer") %>
