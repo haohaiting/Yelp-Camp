@@ -17,3 +17,7 @@ Web development practice project.
 - Use separate files for all the Models needed in MongoDB;
 - A ```seed.js``` file to initialize the database;
 - Styling all the pages (using Semantic UI, just because it's cute...)
+
+### **Version 4**:
+- Add Authentication
+- Add simple logic for navbar related to login status
