@@ -1,20 +1,68 @@
 <%- include("../partials/header") %>
 <%- include("../partials/navbar") %>
 
-<div class="container">
-    <h1><%= campground.name %></h1>
-    <img src="<%= campground.image %>" style="height:300px">
-    <p><%= campground.description %></p>
-    <h5>Comments</h5>
-    <% campground.comments.forEach(function(comment){ %>
-        <p>
-            <strong><%= comment.author %></strong>
-            - <%= comment.text %>
-        </p>
-    <% }) %>
-    <p>
-        <a class="btn btn-primary" href="/campgrounds/<%= campground._id %>/comments/new">new comment</a>
-    </p>
+<div class="ui container">
+    <div class="ui grid">
+        <div class="computer only four wide column">
+            <div class="ui huge header">
+                Yelp Camp
+            </div>
+            <div class="ui clearing divider"></div>
+            <div class="ui vertical fluid menu">
+                <a class="active item">
+                    Info 1
+                </a>
+                <a class="item">
+                    Info 2
+                </a>
+                <a class="item">
+                    Info 3
+                </a>
+            </div>
+        </div>
+        <!-- <div class="mobile sixteen wide column computer twelve wide column"> -->
+        <div class="sixteen wide tablet twelve wide computer column">
+            <div class="ui segment" id="detail-image">
+                <div class="image">
+                    <img class="ui fluid rounded image" src="<%= campground.image %>">
+                </div>
+                <div class="content" id="detail-text">
+                    <a class="ui huge header"><%= campground.name %></a>
+                    <span class="ui right floated bottom aligned header" id="price">$99/night</span>
+                    <div class="description">
+                        <p class="well"><%= campground.description %></p>
+                    </div>
+                    <!-- <div class="ui star rating"></div> -->
+                </div>
+            </div>
+            <!-- comment -->
+            <div class="ui comments segment">
+                <!-- header -->
+                <a class="ui header">Comments</a>
+                <div class="ui divider"></div>
+                <!-- iterate all the comments for this campground -->
+                <% campground.comments.forEach(function(comment){ %>
+                    <div class="comment">
+                        <div class="content">
+                            <a class="author"><%= comment.author %></a>
+                            <div class="metadata">
+                                <span class="date">Today at 5:42PM</span>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <%= comment.text %>
+                        </div>
+                    </div>
+                <% }) %>
+                <a class="ui violet button" id="comment-button"
+                    href="/campgrounds/<%= campground._id %>/comments/new">
+                    <i class="icon edit"></i>
+                    Add New Comment
+                </a>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 <%- include("../partials/footer") %>
