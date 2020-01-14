@@ -12,7 +12,8 @@ Web development practice project.
 - Use MongoDB as the database (use mongoose to connect)
 
 ### **Version 3**:
-- Data association
-- Nested comment RESTful route
-- Use separate files for all the Models needed in MongoDB
+- Data association;
+- Nested comment RESTful route;
+- Use separate files for all the Models needed in MongoDB;
+- A ```seed.js``` file to initialize the database;
 - Styling all the pages (using Semantic UI, just because it's cute...)
