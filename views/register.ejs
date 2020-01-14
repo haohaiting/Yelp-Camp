@@ -1,0 +1,19 @@
+<%- include("./partials/header") %>
+<%- include("./partials/navbar") %>
+
+<div class="ui container">
+    <h1 class="ui huge header">Create an account</h1>
+    <form class="ui form" action="/register" method="POST">
+        <div class="field">
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="Username">
+        </div>
+        <div class="field">
+            <label for="password">Password</label>
+            <input type="text" name="password" placeholder="Password">
+        </div>
+        <button class="ui violet button" type="submit">Sign up</button>
+    </form>
+</div>
+
+<%- include("./partials/footer") %>

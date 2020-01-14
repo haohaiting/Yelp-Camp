@@ -4,15 +4,19 @@
         YelpCamp
       </a>
       <div class="right menu">
-        <a class="item">
-          Sign up
-        </a>
-        <a class="item">
-          Login
-        </a>
-        <a class="item">
-          Log out
-        </a>
+        <% if(!currentUser){ %>
+          <a href="/register" class="item">
+            Sign up
+          </a>
+          <a href="/login" class="item">
+            Login
+          </a>
+        <% } else { %>
+          <a class="item" href="#">Welcome, <%= currentUser.username %></a>
+          <a href="/logout" class="item">
+            Log out
+          </a>
+        <% } %>
       </div>
   </div>
 </div>
