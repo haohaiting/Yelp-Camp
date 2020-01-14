@@ -10,3 +10,9 @@ Web development practice project.
 - Skeleton using NodeJS and ExpressJS;
 - Update the layout of Version1 a little bit;
 - Use MongoDB as the database (use mongoose to connect)
+
+### **Version 3**:
+- Data association
+- Nested comment RESTful route
+- Use separate files for all the Models needed in MongoDB
+- Styling all the pages (using Semantic UI, just because it's cute...)
