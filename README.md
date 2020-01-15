@@ -19,5 +19,12 @@ Web development practice project.
 - Styling all the pages (using Semantic UI, just because it's cute...)
 
 ### **Version 4**:
-- Add Authentication
+- Add Authentication;
 - Add simple logic for navbar related to login status
+
+### **Version 5**:
+- Refactoring routes;
+- User Association with comment and campground;
+- Campground and comment update and destroy;
+- Campground and comment authorization;
+- Other UI Improvement...
