@@ -28,3 +28,7 @@ Web development practice project.
 - Campground and comment update and destroy;
 - Campground and comment authorization;
 - Other UI Improvement...
+
+### **Version 6**:
+- Refactoring middleware;
+- Add flash message;

@@ -20,3 +20,28 @@
       </div>
   </div>
 </div>
+
+<div class="ui container">
+  <% if (error && error.length > 0) {%>
+    <div class="ui negative message">
+      <p><%= error %></p>
+    </div>
+  <% } %>
+  <% if (success && success.length > 0) {%>
+    <div class="ui positive message">
+      <p><%= success %></p>
+    </div>
+  <% } %>
+  <% if (info&& info.length > 0) {%>
+    <div class="ui info message">
+      <p><%= info %></p>
+    </div>
+  <% } %>
+  <% if (warning&& warning.length > 0) {%>
+    <div class="ui warning message">
+      <p><%= warning %></p>
+    </div>
+  <% } %>
+</div>
+
+
