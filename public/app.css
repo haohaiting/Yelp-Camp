@@ -12,6 +12,9 @@
     font-size: 1.7em;
     font-weight: normal;
 }
+.masthead .container {
+    margin-bottom: 3em;
+}
 
 #camp-card{
     margin-top: 2em;
@@ -24,6 +27,25 @@
 #detail-text {
     padding: 1rem;
 }
+#detail-text .huge{
+    color: steelblue;
+}
 #comment-button {
     margin-top: 0.5em;
+}
+
+.grid #form{
+    max-width:450px;
+}
+
+#form {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+#delete-form{
+    display: inline;
+}
+#delete-comment-form {
+    display: inline;
 }

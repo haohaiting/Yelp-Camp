@@ -1,19 +1,27 @@
 <%- include("./partials/header") %>
 <%- include("./partials/navbar") %>
 
-<div class="ui container">
-    <h1 class="ui huge header">Login</h1>
-    <form class="ui form" action="/login" method="POST">
-        <div class="field">
-            <label for="username">Username</label>
-            <input type="text" name="username" placeholder="Username">
+<div class="ui middle aligned center aligned grid">
+    <div class="column" id="form">
+        <div class="ui container">
+            <h1 class="ui huge header">Login</h1>
+            <form class="ui large form" action="/login" method="POST">
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        <input type="text" name="username" placeholder="Username">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="lock icon"></i>
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                </div>
+                <button class="ui violet button" type="submit">Login</button>
+            </form>
         </div>
-        <div class="field">
-            <label for="password">Password</label>
-            <input type="text" name="password" placeholder="Password">
-        </div>
-        <button class="ui violet button" type="submit">Login</button>
-    </form>
+    </div>
 </div>
 
 

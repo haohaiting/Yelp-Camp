@@ -1,21 +1,15 @@
 <%- include("../partials/header") %>
 <%- include("../partials/navbar") %>
 
-<div class="ui container">
+<div class="ui container" id="form">
     <h1 class="ui huge header">New Comment to <%= campground.name %></h1>
     <form class="ui form" action="/campgrounds/<%= campground._id %>/comments" method="POST">
         <div class="field">
-            <label for="comment[author]">Author Name</label>
-            <input type="text" name="comment[author]" placeholder="Name">
-        </div>
-        <div class="field">
-            <label for="comment[text]">Comment</label>
             <textarea name="comment[text]"></textarea>
         </div>
         <button class="ui violet button" type="submit">Submit</button>
-        <a class="ui violet inverted button" href="/campgrounds/<%= campground._id %>">Back</a>
+        <a class="ui violet basic button" href="/campgrounds/<%= campground._id %>">Back</a>
     </form>
-    
 </div>
 
 <%- include("../partials/footer") %>
