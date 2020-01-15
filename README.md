@@ -32,5 +32,5 @@ Web development practice project.
 ### **Version 6**:
 - Refactoring middleware;
 - Add flash messages;
-- Styling the landing page using [background-slider](https://github.com/nax3t/background-slider)
-- 
+- Styling the landing page using [background-slider](https://github.com/nax3t/background-slider);
+- Add price feature for campground
