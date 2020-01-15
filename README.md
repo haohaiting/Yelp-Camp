@@ -31,4 +31,6 @@ Web development practice project.
 
 ### **Version 6**:
 - Refactoring middleware;
-- Add flash message;
+- Add flash messages;
+- Styling the landing page using [background-slider](https://github.com/nax3t/background-slider)
+- 

@@ -1,7 +1,3 @@
-.message{
-    padding-bottom: 2em;
-}
-
 .masthead.segment {
     min-height: 300px;
     padding: 1em 0em;
@@ -52,4 +48,8 @@
 }
 #delete-comment-form {
     display: inline;
+}
+
+.message {
+    padding-bottom: 2em;
 }
