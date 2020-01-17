@@ -18,14 +18,15 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes = require("./routes/index");
 
 // connect to database
-// mongoose.connect("mongodb://localhost/yelp_camp", {useNewUrlParser: true, useUnifiedTopology: true });
-var uri = 'mongodb+srv://Haiting:djnlvWp8d5jQdDCd@cluster0-n84cl.mongodb.net/test?retryWrites=true&w=majority';
+console.log(process.env.DATABASEURL);
+mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true, useUnifiedTopology: true });
+// var uri = 'mongodb+srv://Haiting:djnlvWp8d5jQdDCd@cluster0-n84cl.mongodb.net/test?retryWrites=true&w=majority';
 
-mongoose.connect(uri, {
-    useUnifiedTopology: true,
-    useNewUrlParser: true
-}).then(() => console.log('Connected')
-).catch(err => console.log('Caught', err.stack));
+// mongoose.connect(uri, {
+//     useUnifiedTopology: true,
+//     useNewUrlParser: true
+// }).then(() => console.log('Connected')
+// ).catch(err => console.log('Caught', err.stack));
 
 // app config
 app.use(express.static(__dirname + "/public"));
@@ -62,6 +63,7 @@ app.use(function (req, res, next) {
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 app.use(indexRoutes);
+
 
 const PORT = process.env.PORT || 8080;
 
