@@ -11,8 +11,11 @@ Users only have the authorization for their own posts or comments.
 - Deployment: Heroku
 
 ## Looking
+
 ![Landing Page][/public/images/001.png]
+
 ![Main Page][/public/images/002.png]
+]
 ![Comments][/public/images/003.png]
 
 ---
