@@ -1,5 +1,37 @@
 # Yelp-Camp
+
 Web development practice project.
+
+The whole web app allows registered users post/edit/delete/comment campgrounds.
+Users only have the authorization for their own posts or comments.
+
+- Logic: NodeJS, ExpressJS
+- Layout: Semantic UI
+- Database: MongoDB Atlas
+- Deployment: Heroku
+
+## Looking
+![Landing Page][./public/images/001.png]
+![Main Page][./public/images/002.png]
+![Comments][./public/images/003.png]
+
+---
+
+## To-do
+- [ ] Admin Role
+- [ ] User Profile
+- [ ] Image Upload
+- [ ] Password Reset
+- [ ] Refactor callbacks with Async/Await
+- [ ] Message Notifications
+- [ ] Embed Google Map
+- [ ] Comment on the show page
+- [ ] Ratings or like button
+- [ ] Try MomentJS to display time
+
+---
+
+## Develop history (check each branch)
 
 ### **Version 1**: 
 - Skeleton using NodeJS and ExpressJS;
