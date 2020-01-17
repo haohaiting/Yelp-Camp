@@ -56,11 +56,20 @@
                     <div class="comment segment">
                         <a class="avatar">
                             <img src="https://semantic-ui.com/images/avatar/small/matt.jpg">
+                            <!-- <img src="https://semantic-ui.com/images/avatar/small/jenny.jpg">
+                            <img src="https://semantic-ui.com/images/avatar/small/elliot.jpg">
+                            <img src="https://semantic-ui.com/images/avatar/small/joe.jpg">
+                            <img src="https://semantic-ui.com/images/avatar/small/stevie.jpg">
+                            <img src="https://semantic-ui.com/images/avatar/small/christian.jpg">
+                            <img src="https://semantic-ui.com/images/avatar/small/helen.jpg">
+                            <img src="https://semantic-ui.com/images/avatar/small/daniel.jpg">
+                            <img src="https://semantic-ui.com/images/avatar2/small/elyse.png"> -->
                         </a>
                         <div class="content">
                             <a class="author"><%= comment.author.username %></a>
                             <div class="metadata">
-                                <span class="date">Today at 5:42PM</span>
+                                <span
+                                    class="date"><%= comment.created.toTimeString().substring(0,8) %> <%= comment.created.toDateString().substring(4,) %></span>
                             </div>
                             <div class="text">
                                 <%= comment.text %>
