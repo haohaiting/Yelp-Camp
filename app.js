@@ -18,9 +18,8 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes = require("./routes/index");
 
 // connect to database
-console.log(process.env.DATABASEURL);
-mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true, useUnifiedTopology: true });
-// var uri = 'mongodb+srv://Haiting:djnlvWp8d5jQdDCd@cluster0-n84cl.mongodb.net/test?retryWrites=true&w=majority';
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
+mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true });
 
 // mongoose.connect(uri, {
 //     useUnifiedTopology: true,
