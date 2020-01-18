@@ -1,4 +1,4 @@
-# Yelp-Camp
+# :fire: Yelp-Camp
 
 Web development practice project.
 
@@ -10,17 +10,17 @@ Users only have the authorization for their own posts or comments.
 - Database: MongoDB Atlas
 - Deployment: Heroku
 
-## Looking
+## :sparkles: Looking
 
-![Landing Page][/public/images/001.png]
+![LandingPage][/public/images/001.png]
 
-![Main Page][/public/images/002.png]
-]
+![MainPage][/public/images/002.png]
+
 ![Comments][/public/images/003.png]
 
 ---
 
-## To-do
+## :ballot_box_with_check: To-do
 - [ ] Admin Role
 - [ ] User Profile
 - [ ] Image Upload
@@ -34,7 +34,7 @@ Users only have the authorization for their own posts or comments.
 
 ---
 
-## Develop history (check each branch)
+## :scroll: Develop history (check each branch)
 
 ### **Version 1**: 
 - Skeleton using NodeJS and ExpressJS;
