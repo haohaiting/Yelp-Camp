@@ -12,6 +12,8 @@ Users only have the authorization for their own posts or comments.
 
 ## :sparkles: Looking
 
+<img src="/public/images/001.png", width="800">
+
 ![LandingPage][/public/images/001.png]
 
 ![MainPage][/public/images/002.png]
