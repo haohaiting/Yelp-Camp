@@ -18,8 +18,6 @@ Users only have the authorization for their own posts or comments.
 
 ![Comments][/public/images/003.png]
 
----
-
 ## :ballot_box_with_check: To-do
 - [ ] Admin Role
 - [ ] User Profile
