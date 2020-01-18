@@ -12,10 +12,13 @@ Users only have the authorization for their own posts or comments.
 
 ## :sparkles: Looking
 
+### Landing Page
 ![landing](/public/images/001.png)
 
+### Show page
 ![main](/public/images/002.png)
 
+### comment region
 ![comments](/public/images/003.png)
 
 ## :ballot_box_with_check: To-do
