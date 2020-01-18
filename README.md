@@ -33,8 +33,6 @@ Users only have the authorization for their own posts or comments.
 - [ ] Ratings or like button
 - [ ] Try MomentJS to display time
 
----
-
 ## :scroll: Develop history (check each branch)
 
 ### **Version 1**: 
