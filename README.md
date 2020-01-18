@@ -12,13 +12,11 @@ Users only have the authorization for their own posts or comments.
 
 ## :sparkles: Looking
 
-<img src="/public/images/001.png", width="800">
+![landing](/public/images/001.png)
 
-![LandingPage][/public/images/001.png]
+![main](/public/images/002.png)
 
-![MainPage][/public/images/002.png]
-
-![Comments][/public/images/003.png]
+![comments](/public/images/003.png)
 
 ## :ballot_box_with_check: To-do
 - [ ] Admin Role
