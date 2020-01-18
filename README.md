@@ -18,7 +18,7 @@ Users only have the authorization for their own posts or comments.
 ### Show page
 ![main](/public/images/002.png)
 
-### comment region
+### Comment
 ![comments](/public/images/003.png)
 
 ## :ballot_box_with_check: To-do
